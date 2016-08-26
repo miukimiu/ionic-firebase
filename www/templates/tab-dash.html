@@ -1,0 +1,28 @@
+<!-- <ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <div ng-if="authData.facebook" class="list card">
+      <div class="item item-avatar">
+        <div class="item-image facebook-avatar" back-img="{{authData.facebook.cachedUserProfile.picture.data.url}}"></div>
+        <h2>{{authData.facebook.displayName}}</h2>
+        <p>Facebook</p>
+      </div>
+
+    </div>
+
+    <div style="text-align:center">
+
+        <button class="button button-positive icon ion-social-facebook button-round" ng-click="login('facebook')"></button>
+
+    </div>
+  </ion-content>
+</ion-view> -->
+
+<ion-view view-title="Sign-In">
+  <ion-content>
+    <div class="padding" style='margin-top:80px;'>
+      <button class="button button-block button-positive" ng-click="login()">
+        Sign in with facebook
+      </button>
+    </div>
+  </ion-content>
+</ion-view>
